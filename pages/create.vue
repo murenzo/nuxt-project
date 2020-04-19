@@ -1,19 +1,18 @@
 <template>
   <div>
-    <h2>Events</h2>
+    <h2>Create Event</h2>
   </div>
 </template>
 <script>
 export default {
   head() {
     return {
-      title: 'Event Listing',
+      title: 'Create an Event',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content:
-            'Where you can find all the events taken place in your neighbourhood'
+          content: 'You can create an event taken place in your neighbourhood'
         }
       ]
     }
